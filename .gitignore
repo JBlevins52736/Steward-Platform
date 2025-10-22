@@ -1,0 +1,56 @@
+# Claude Code
+.claude/
+CLAUDE.md
+
+# SolidWorks Files
+# Temporary files
+~$*.SLDPRT
+~$*.SLDASM
+~$*.SLDDRW
+*.SLDPRT.bak
+*.SLDASM.bak
+*.SLDDRW.bak
+
+# SolidWorks auto-recovery
+*.SWX
+*.swx
+
+# SolidWorks Backup
+*.sldreg
+*.sldlfp
+
+# Journal files
+journal/
+
+# Renderings (large output files)
+*.jpg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.exr
+
+# Videos (very large)
+*.avi
+*.mp4
+*.mov
+*.wmv
+
+# HDR environments (large)
+*.hdr
+*.hdri
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Office temporary files
+~$*.xlsx
+~$*.docx
+~$*.pptx
+
+# Compressed archives
+*.zip
+*.rar
+*.7z
