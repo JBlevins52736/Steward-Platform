@@ -22,13 +22,14 @@ CLAUDE.md
 # Journal files
 journal/
 
-# Renderings (large output files)
-*.jpg
-*.png
+# Renderings (large output files) - excluding project images
 *.bmp
 *.tif
 *.tiff
 *.exr
+# Uncomment below to ignore all images
+# *.jpg
+# *.png
 
 # Videos (very large)
 *.avi
@@ -50,7 +51,8 @@ Desktop.ini
 ~$*.docx
 ~$*.pptx
 
-# Compressed archives
-*.zip
+# Compressed archives (except electronics design files)
 *.rar
 *.7z
+# Uncomment below to ignore all zip files
+# *.zip
